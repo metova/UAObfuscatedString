@@ -170,7 +170,7 @@ public extension String {
     var ampersand: String { return self + "&" }
     var caret: String { return self + "^" }
     var percent: String { return self + "%" }
-    var `$`: String { return self + "$" }
+    var dollar: String { return self + "$" }
     var pound: String { return self + "#" }
     var at: String { return self + "@" }
     var exclamation: String { return self + "!" }
@@ -204,7 +204,7 @@ public extension String {
     var ampersand: NSMutableString { append("&"); return self }
     var caret: NSMutableString { append("^"); return self }
     var percent: NSMutableString { append("%"); return self }
-    var `$`: NSMutableString { append("$"); return self }
+    var dollar: NSMutableString { append("$"); return self }
     var pound: NSMutableString { append("#"); return self }
     var at: NSMutableString { append("@"); return self }
     var exclamation: NSMutableString { append("!"); return self }
